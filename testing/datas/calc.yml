@@ -1,0 +1,27 @@
+#- a
+#- b
+#- c
+
+#key1:
+#  key1:value1
+#key2:
+#  - w
+#  - v
+
+add:
+  datas:
+    - [ 1,2,3 ]
+    - [ -1,1,0 ]
+    - [ 100,200,500 ]
+    - [ 0.1,0.8,0.9 ]
+  ids: [ int,zero,error,float ]
+
+div:
+  datas:
+    - [ 6,2,3 ]
+    - [ -1,1,-1 ]
+    - [ 0,1,0 ]
+    - [ 100,200,500 ]
+    - [ 0.9,0.3,3 ]
+    - [ 1,0,1 ]
+  ids: [ int,negative,zero,error,float,error0 ]
